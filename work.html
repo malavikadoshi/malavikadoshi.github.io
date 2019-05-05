@@ -1,27 +1,79 @@
+
 <!DOCTYPE html>
 <html>
-<head>
 <style>
-img { 
-  width: 100%; 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40;
+  font-family: Myriad Pro;
+}
+
+.header {
+  text-align: center;
+  padding: 1px;
+}
+
+.column {
+  float: left;
+  width: 49%;
+  padding: 90px;
+}
+
+.column img {
+  margin-top: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 </style>
-</head>
 <body>
 
-<img src="composition-page-001.jpg" alt="HTML5 Icon" width="2" height="2080">
+<!-- Header -->
+<div class="header">
+  <h1>My work</h1>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+  <img src="ben.jpg" style="width:70%">
+  <img src="pizza try1.jpg" style="width:70%">
+  <img src="compo.jpg" style="width:70%">
+  <img src="unsh.jpg" style="width:70%">
+ 
+ 
+  </div>
+  <div class="column">
+  <img src="typo.jpg" style="width:100%">
 <br>
 <br>
-<img src="Yellow.jpg" alt="HTML5 Icon" style="width:5px;height:100px;">
+<br>
+  <img src="dhokla.jpg" style="width:100%">
+<br> 
 <br>
 <br>
-<img src="Page loader trial-01.jpg" alt="HTML5 Icon" width="7" height="750">
+<br>
+<br> 
+<img src="Yellow.jpg" style="width:100%">
+<br>  
 <br>
 <br>
-<img src="line figure1.jpg" alt="HTML5 Icon" width="5" height="800">
 <br>
 <br>
-<img src="pizza try1.jpg" alt="HTML5 Icon" width="2" height="2000">
+<img src="line.jpg" style="width:120%">
+<br>
+<br>
+<img src="loader.jpg" style="width:120%">
+ 
+  </div>
+</div>
 
 </body>
 </html>
